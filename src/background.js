@@ -36,6 +36,7 @@ app.on("ready", () => {
   const mainWindow = createWindow("main", {
     width: 1220,
     height: 600,
+    icon: path.join(`${__dirname}/icons/256x256.png`),
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
